@@ -1,5 +1,5 @@
 <?php
-$input = array("a" => "green", "red", "b" => "green", "blue", "red");
+$input = ["a" => "green", "red", "b" => "green", "blue", "red"];
 //print_r($input);
 
 //$result = array_unique($input);
@@ -7,8 +7,10 @@ $input = array("a" => "green", "red", "b" => "green", "blue", "red");
 
 $unique = [];
 foreach ($input as $key => $value){
-    if (!in_array($value, $unique))
+    if (!in_array($value, $unique)){
         $unique[$key] = $value;
+    }
+
 }
 
 print_r ($unique);

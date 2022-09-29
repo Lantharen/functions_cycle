@@ -1,5 +1,5 @@
 <?php
-$os = array("Mac", "NT", "Irix", "Linux");
+$os = ["Mac", "NT", "Irix", "Linux"];
 
 //if (in_array("Irix", $os)) {
     //echo "Нашёл Irix";

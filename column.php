@@ -1,26 +1,26 @@
 <?php
-$records = array(
-    array(
+$records = [
+    [
         'id' => 2135,
         'first_name' => 'John',
         'last_name' => 'Doe',
-    ),
-    array(
+    ],
+    [
         'id' => 3245,
         'first_name' => 'Sally',
         'last_name' => 'Smith',
-    ),
-    array(
+    ],
+    [
         'id' => 5342,
         'first_name' => 'Jane',
         'last_name' => 'Jones',
-    ),
-    array(
+    ],
+    [
         'id' => 5623,
         'first_name' => 'Peter',
         'last_name' => 'Doe',
-    )
-);
+    ],
+];
 
 /*$first_names = array_column($records, 'first_name');
 print_r($first_names);*/
@@ -28,9 +28,11 @@ print_r($first_names);*/
 $i = 0;
 foreach ($records as $key => $value){
     foreach($value as $index => $item) {
-        if ($index == 'id' || $index == 'last_name')
-        echo "Check #$i " . $index . $item . "</br>";
-        $i++;
+        if ($index == 'id' || $index == 'last_name'){
+            echo "Check #$i " . $index . $item . "</br>";
+            $i++;
+        }
+
     }
 }
 

@@ -8,8 +8,10 @@ $firstKey = array_key_first($array);
 $i = 0;
 
 foreach ($array as $key => $value){
-    if ($i === 0) var_dump($key);
-    $i++;
+    if ($i === 0) {
+        var_dump($key);
+        $i++;
+    }
 }
 
 

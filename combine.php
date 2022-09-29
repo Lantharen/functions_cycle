@@ -1,6 +1,6 @@
 <?php
-$a = array('green','red', 'yellow');
-$b = array('avocado', 'apple', 'banana');
+$a = ['green','red', 'yellow'];
+$b = ['avocado', 'apple', 'banana'];
 $c = array_combine($a, $b);
 $k = [];
 //print_r($c);

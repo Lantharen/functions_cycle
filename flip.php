@@ -1,6 +1,6 @@
 <?php
 
-$input = array("oranges", "apples", "pears");
+$input = ["oranges", "apples", "pears"];
 $flipped = array_flip($input);
 
 $_flipped = [];
